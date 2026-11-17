@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인</title>
+
+<style>
+.menu{background-color: black; padding:20px;}
+.menu a{color:white; margin: 10px; font-weight: bold; text-decoration: none;}
+.logo{width: 50px; vertical-align: middle;}
+.company{color: white; font-size: 20px; font-weight: bold; margin-right: 20px;}
+.main{position:relative;}
+.maintext{position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); text-align: center; color: black;}
+.mainlogo{width: 100%;}
+.about {text-align: center; padding: 60px 20px; background-color: white;}
+.about h2{font-size: 28px; margin-bottom: 2;}
+.about p{font-size: 14px;}
+.lineone{width: 1px; height: 120px; background-color: black; margin: 50px auto 20px auto}
+.linetwo{width: 1px; height: 120px; background-color: black; margin: 50px auto 20px auto}
+.menu a{transition: 0.3s; display: inline-block;}
+.menu a:hover {text-decoration: underline; transform: scale(1.05);}
+.services{display: flex; gap: 20px; justify-content: center; margin: 40px 0; }
+.services img{width: 200px; transition: 0.3s;}
+.services img:hover{transform: scale(1.05);}
+.button-group {text-align: center;}
+.button-group a {display: inline-block; padding: 15px 30px; text-decoration: none; margin: 10px; transition: 0.3s;}
+.button-group a:hover{transform: scale(1.05);}
+.about{background-color: black ; color: white; border: 2px black;}
+.request{background-color:rgb(219, 219, 219); color:black; border: 2px white;}
+footer{background-color: #000; color: white; text-align: center; padding: 20px; margin-top: 80px; font-size: x-small;}
+
+</style>
+
+
+</head>
+
+<body>
+
+ <div class="menu">
+<img src="image/logo.png" class="logo">
+<span class="company">SHIELD</span>
+
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="request.html">REQUEST</a>
+</div>   
+
+<div class="main">
+<img src="image/building.jpg" width="100%" class="mainimg">
+
+<div class="maintext">
+<img src="image/logo.png" class="mainlogo">
+<h1>SHIELD</h1>
+<p>Every request has a Price</p>
+</div>
+</div>
+
+<div class="lineone"></div>
+<div class="about">
+<h2>ABOUT US</h2>
+<p>SHIELD는 정보 수집, 조사, 현장 파견 등<br> 다양한 의뢰를 해결하는 전문 기업입니다.</p>
+</div>
+<div class="linetwo"></div>
+<section class="services">
+<img src="image/01.png">
+<img src="image/02.png">
+<img src="image/03.png">
+</section>
+
+<div class="button-group">
+<a href="about.html" class="about">회사 소개</a>
+<a href="request.html" class="request">의뢰 접수하기</a>
+
+</div>
+
+
+<footer>
+© 2026 SHIELD. All Rights Reserved.
+</footer>
+
+</body>
+
+</html>
